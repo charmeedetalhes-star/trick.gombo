@@ -1,0 +1,11 @@
+OFERTA SEPARADA
+
+Abra index.html no navegador ou envie index.html, oferta.css, oferta.js e a pasta oferta-assets para sua hospedagem, mantendo a estrutura.
+
+O topo e o vídeo aparecem imediatamente. Os botões e as seções marcadas com atraso na oferta original são liberados após 492 segundos (8 minutos e 12 segundos) desde a abertura da página, independentemente da reprodução do vídeo. Recarregar reinicia a espera. O vídeo usa o novo player VTurb fornecido e requer internet. Os quatro botões de compra usam os componentes oficiais da Cakto para a oferta 36ujo5h. Aceitar e recusar direcionam para https://calisteniacoreana.vercel.app/obrigado conforme o código fornecido. O preço exibido é R$ 27,00; configure o mesmo valor na oferta da Cakto. A barra em 75% é visual e fixa, sem consulta ao processamento do pedido. A cobrança deve ser validada no fluxo de teste da Cakto; nenhuma transação foi realizada nesta edição.
+
+As imagens estão salvas localmente. O contador começa em 8 minutos quando a oferta é liberada; ele é visual e não altera condições no checkout. Os carrosséis têm navegação manual e por deslize. Textos, preços e depoimentos foram recuperados do download original.
+
+quiz-original.html preserva o HTML baixado. Os arquivos js e css originais continuam na pasta para esse backup.
+
+Para regenerar a página: node build-offer.cjs (usa funnel-data.json e oferta-assets/manifest.json). Edições diretas no index.html serão sobrescritas ao regenerar.

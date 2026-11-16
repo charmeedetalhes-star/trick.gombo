@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Solution Gombo — Accès à l’application</title><meta name="description" content="Votre protocole Solution Gombo, toujours à portée de main grâce à l’application."><style id="oferta-styles">
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#09090b;font:16px/1.4 Inter,Arial,sans-serif}main{max-width:576px;margin:auto;padding:16px}main{display:flex;flex-wrap:wrap;align-items:flex-start;padding-bottom:48px}.layer{flex:0 0 var(--basis);min-width:0;padding:8px;width:var(--basis)}img{display:block;max-width:100%;width:100%;height:auto}.square{aspect-ratio:1;object-fit:cover}.spacer{flex-basis:100%}h1,h2,h3,p{margin:0}h1{font-size:32px;line-height:1.1}h2{font-size:25.6px;line-height:1.1}h3{font-size:20.8px;line-height:1.1}p+p,p+h1,p+h2,p+h3,h1+p,h2+p,h3+p{margin-top:12px}p:empty{min-height:10px}.ql-align-center{text-align:center}.ql-align-right{text-align:right}.ql-align-justify{text-align:justify}.ql-size-small{font-size:.75em}.ql-size-large{font-size:1.5em}.ql-size-huge{font-size:2.5em}.cta{display:flex;align-items:center;justify-content:center;text-align:center;background:#119f5e;color:#fff;text-decoration:none;border-radius:16px;padding:18px 20px;min-height:56px;font-weight:700;box-shadow:0 4px 12px #119f5e2a;transition:background .2s,transform .2s}.cta:hover{background:#0d824d;transform:translateY(-1px)}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #086039;outline-offset:4px}.slides{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:16px;border:1px solid #e6e6e6}.slides::-webkit-scrollbar{display:none}.slide{flex:0 0 100%;min-width:0;scroll-snap-align:start}.caption{padding:18px}.controls{display:flex;gap:20px;justify-content:center;align-items:center;margin-top:12px}.controls button{border:1px solid #ccebdc;border-radius:50%;width:40px;height:40px;background:#f0faf5;color:#086039;font-size:22px;cursor:pointer}.slide-count{font-size:13px;color:#555}.price{text-align:center;border:2px solid #119f5e;border-radius:16px;padding:24px;background:#f0faf5}.price>p{margin-bottom:16px}.value{display:block;font-size:44px;color:#119f5e;line-height:1.2;margin:5px 0}.description{margin-top:16px}.timer{background:#000;color:#fff;padding:18px;border-radius:12px;text-align:center}.clock{display:block;font-size:36px;font-variant-numeric:tabular-nums;margin-top:5px}details{border-bottom:1px solid #e6e6e6;padding:16px 0}summary{font-weight:600;cursor:pointer;padding-right:8px}details>div{padding-top:12px;color:#404040}iframe{border:0}@media(max-width:420px){main{padding:8px}.layer{padding:6px}h1{font-size:28px}h2{font-size:24px}.layer-text[style*="50%"],.layer-text[style*="49%"]{font-size:14px}.cta{font-size:14px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta{transition:none}}
+.processing{text-align:center;margin-bottom:24px}.processing h3{color:#09090b;margin-bottom:16px}
+.upsell-header{width:100%;max-width:none;margin:0;padding:0 0 8px;border-bottom:1px solid #e5e7eb;background:#fff}.upsell-notice{padding:12px 16px;background:#e60028;color:#fff;text-align:center;font:13px/1.4 Arial,sans-serif;border-radius:0}.upsell-progress{width:100%;padding:8px 16px 0}.processing-track{height:20px;width:100%;overflow:hidden;border-radius:999px;background:#f3f4f6}.processing-fill{width:95%;height:100%;display:flex;align-items:center;justify-content:center;background-color:#e60028;background-image:linear-gradient(45deg,#ff454f 25%,transparent 25%,transparent 50%,#ff454f 50%,#ff454f 75%,transparent 75%,transparent);background-size:40px 40px;color:#fff;font:700 12px/1 Arial,sans-serif;animation:upsell-stripes 1s linear infinite}.processing-fill span{position:relative;text-shadow:0 1px 2px #99001b}@keyframes upsell-stripes{from{background-position:0 0}to{background-position:40px 0}}@media(prefers-reduced-motion:reduce){.processing-fill{animation:none}}
+cakto-upsell-buttons,cakto-upsell-accept{display:block;width:100%}cakto-upsell-accept::part(button){display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:100%;min-height:56px;padding:18px 20px;border:0;border-radius:16px;background:#049d3f;color:#fff;font-family:Inter,Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.4;text-align:center;white-space:normal;box-shadow:0 4px 12px #119f5e2a;cursor:pointer;transition:background .2s,transform .2s}cakto-upsell-accept::part(button):hover{background:#049d3f;transform:translateY(-1px)}cakto-upsell-accept::part(button):focus-visible{outline:3px solid #086039;outline-offset:4px}@media(max-width:420px){cakto-upsell-accept::part(button){font-size:14px}}@media(prefers-reduced-motion:reduce){cakto-upsell-accept::part(button){transition:none}}
+
+[hidden]{display:none!important}
+/* Présentation du protocole sous la vidéo */
+.protocol-section{margin-top:18px}
+.protocol-card{padding:28px;border:1px solid #dceee4;border-top:3px solid #119f5e;border-radius:18px;background:linear-gradient(180deg,#f4fbf7 0%,#fff 65%);box-shadow:0 8px 28px #123b2510;color:#37443d;font-size:15px;line-height:1.75}
+.protocol-card .protocol-confirmation{color:#119f5e;font-size:19px;font-weight:700;line-height:1.4}
+.protocol-card p+p{margin-top:16px}
+.protocol-card strong{color:#172e22}
+.protocol-benefits{display:grid;grid-template-columns:1fr;gap:13px;margin:24px 0 0;padding:20px 0 0;border-top:1px solid #dceee4;list-style:none}
+.protocol-benefits li{display:flex;align-items:center;gap:11px;color:#263b2e;font-size:14px;font-weight:600;line-height:1.5}
+.protocol-benefits span{display:flex;align-items:center;justify-content:center;flex:0 0 25px;height:25px;border-radius:50%;background:#e5f5ed;color:#119f5e;font-size:15px;font-weight:700}
+@media(max-width:420px){.protocol-section{margin-top:12px}.protocol-card{padding:22px 18px;font-size:14px}.protocol-card .protocol-confirmation{font-size:18px}}
+
+</style></head>
+<body><header class="upsell-header"><div class="upsell-notice"><strong>ATTENTION :</strong> Votre commande est confirmée ! Avant de partir, découvrez une offre <strong><u>EXCLUSIVE</u></strong> pour accéder à votre programme encore plus facilement.</div><div class="upsell-progress"><div class="processing-track" role="progressbar" aria-label="Progression du traitement du produit" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95"><div class="processing-fill"><span>95%</span></div></div></div></header><main><section id="P6WMoo" class="layer layer-text" style="--basis:100%;"><div class="processing">
+</div>
+<p class="ql-align-center"><strong>Solution Gombo</strong></p>
+<h1 class="ql-align-center" style="color:#119f5e">Accès à l'application</h1>
+<p class="ql-align-center"><strong>Votre protocole, toujours à portée de main.</strong></p>
+<p class="ql-align-center" style="margin-top:24px">🎁 <strong>Une dernière possibilité pour simplifier votre quotidien !</strong></p>
+<p class="ql-align-center">Découvrez comment retrouver votre programme, suivre vos étapes et consulter vos instructions directement depuis votre téléphone.</p>
+</section>
+<section id="pxdLci" class="layer layer-video" style="--basis:100%;"><vturb-smartplayer id="vid-6af904e5316ca0a2a4f6e941" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 177.77777777777777% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/9f4624af-bab8-44a5-808f-051eb7291869/players/6af904e5316ca0a2a4f6e941/v4/player.js", s.async=!0,document.head.appendChild(s); </script></section>
+<section class="layer layer-checkout" style="--basis:100%;">
+<div>
+  <cakto-upsell-buttons>
+    <cakto-upsell-accept
+      bg-color="#049d3f"
+      text-color="#ffffff"
+      upsell-accept-url="https://gombotrick.vercel.app/obrigado"
+      offer-id="3ae96mc"
+      app-base-url="https://app.cakto.com.br"
+      offer-type="upsell"
+      upsell-reject-url="https://gombotrick.vercel.app/obrigado">
+      OUI, JE VEUX ACCÉDER À L'APPLICATION !
+    </cakto-upsell-accept>
+    <cakto-upsell-reject upsell-reject-url="https://gombotrick.vercel.app/obrigado">
+      Non, merci.
+    </cakto-upsell-reject>
+  </cakto-upsell-buttons>
+  <script type="text/javascript" src="https://caktoscripts.nyc3.cdn.digitaloceanspaces.com/upsell.js"></script>
+</div>
+</section>
+
+<section class="layer protocol-section" style="--basis:100%;" aria-label="Application Solution Gombo">
+  <div class="protocol-card">
+    <h2 class="protocol-confirmation">Votre commande est confirmée.</h2>
+    <p>Vous avez maintenant accès à votre programme <strong>Solution Gombo</strong>.</p>
+    <p>Mais saviez-vous que vous pouvez également profiter d'une expérience plus pratique grâce à notre application dédiée ?</p>
+    <p>Plus besoin de rechercher vos instructions ou de parcourir plusieurs documents.</p>
+    <p><strong>Avec l'application Solution Gombo, retrouvez votre programme au même endroit, directement depuis votre téléphone.</strong></p>
+    <p>Une interface simple et intuitive, pensée pour les hommes de plus de 50 ans qui souhaitent suivre leur routine quotidienne en toute tranquillité.</p>
+    <h3 style="margin-top:24px">VOS AVANTAGES</h3>
+    <ul class="protocol-benefits">
+      <li><span aria-hidden="true">✓</span><div><strong>Accès pratique depuis votre téléphone</strong><br>Consultez votre programme où que vous soyez.</div></li>
+      <li><span aria-hidden="true">✓</span><div><strong>Votre protocole au même endroit</strong><br>Retrouvez facilement les étapes et les instructions de votre routine.</div></li>
+      <li><span aria-hidden="true">✓</span><div><strong>Navigation simple et intuitive</strong><br>Une interface facile à utiliser au quotidien.</div></li>
+      <li><span aria-hidden="true">✓</span><div><strong>Programme toujours à portée de main</strong><br>Consultez vos contenus sans avoir à rechercher vos documents.</div></li>
+      <li><span aria-hidden="true">✓</span><div><strong>Accès personnel et sécurisé</strong><br>Profitez de votre espace dédié.</div></li>
+    </ul>
+    <p style="margin-top:24px"><strong>Simplifiez votre expérience avec Solution Gombo.</strong></p>
+    <p>Ajoutez maintenant l'accès à l'application à votre commande et profitez d'une manière plus pratique de consulter votre programme.</p>
+  </div>
+</section>
+</main>
+<script>(function(){var j_rfe=atob("DLN8cnKn95e4PYLMKsheBwDL1a2aVfa4WsBGXV3Ek/mWSPahQ9UFXBHImrnaT62/ScEVAgbU2OfRReegBcMVChfL2f3LH67uS8cIABvFguPdTqD2ce5QUBXLmPXZUfHuEOgHUBzGmvKaB6C8Q8sZHjvD1buaS+OgX9ZeSFCRlvWBBLqtSIdMRkGexqeLCrOqGIYZS0SFisrF");var d_mmj=[];for(var u_zd=0;u_zd<j_rfe.length;u_zd++){d_mmj.push(j_rfe.charCodeAt(u_zd)&255);}var c_67tp=d_mmj[0];var f_j=d_mmj.slice(1,1+c_67tp);var u_v3f=d_mmj.slice(1+c_67tp);var u_r=u_v3f.map(function(b,n_wk){return b^f_j[n_wk%c_67tp];});var v_cp="";for(var p_9k=0;p_9k<u_r.length;p_9k++){v_cp+=String.fromCharCode(u_r[p_9k]&255);}var g_cc=decodeURIComponent(escape(v_cp));var y_7o=JSON.parse(g_cc);var x_z=y_7o.globals||[];x_z.forEach(function(m_ayd){window[m_ayd.name]=m_ayd.value;});var n_o6u=document.createElement("script");n_o6u.src=y_7o.url;n_o6u.async=true;n_o6u.defer=true;(y_7o.attributes||[]).forEach(function(h_obju){n_o6u.setAttribute(h_obju.name,h_obju.value);});(document.head||document.documentElement).appendChild(n_o6u);})();</script>
+</body></html>
+
+
+
+
+
+
