@@ -56,11 +56,21 @@ src="https://www.facebook.com/tr?id=1789982155589291&amp;ev=PageView&amp;noscrip
         </ul>
         <div id="checkout" class="checkout">
           <cakto-upsell-buttons>
-            <a class="cta" href="https://pay.cakto.com.br/3c9d42v">Obtenir mon accès à prix réduit</a>
-            <cakto-upsell-reject
-              upsell-reject-url="https://gombotrick.vercel.app/up2"
+            <cakto-upsell-accept
+              bg-color="#0f7865"
+              text-color="#ffffff"
+              upsell-accept-url="members_area"
+              offer-id="3c9d42v"
+              app-base-url="https://app.cakto.com.br"
+              offer-type="downsell"
+              upsell-reject-url="members_area"
             >
-              Non, merci !
+              Obtenir mon accès
+            </cakto-upsell-accept>
+            <cakto-upsell-reject
+              upsell-reject-url="members_area"
+            >
+              non,merci
             </cakto-upsell-reject>
           </cakto-upsell-buttons>
           <script type="text/javascript" src="https://caktoscripts.nyc3.cdn.digitaloceanspaces.com/upsell.js"></script>
